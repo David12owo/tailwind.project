@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-yellow-400">
+    <!--header section-->
+    <header class="container mx-auto">
+      <nav class="flex justify-between items-center p-5">
+        <!--nav-logo-->
+        <img class="w-24" src="logo.png" alt="logo" />
+
+        <!--nav-links-->
+        <ul class="flex text-green-500 gap-4 md:gap-10">
+          <li class="hover:underline hover:text-white hover:text-opacity-85">
+            <a href="#">Home</a>
+          </li>
+          <li class="hover:underline hover:text-white hover:text-opacity-85">
+            <a href="#">About US</a>
+          </li>
+          <li class="hover:underline hover:text-white hover:text-opacity-85">
+            <a href="#">Features</a>
+          </li>
+          <li class="hover:underline hover:text-white hover:text-opacity-85">
+            <a href="#">Services</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--header ends here-->
+
+    <!--Main section starts here-->
+    <main class="bg-green-500 w-full">
+      <!--featured posts starts here-->
+      <h1
+        class="flex justify-center text-yellow-400 text-opacity-80 mt-4 mx-6 text-xl font-bold"
+      >
+        Latest Posts
+      </h1>
+      <section
+        class="flex max-w-[1250px] flex-wrap gap-16 justify-center items-center mx-auto p-5"
+      >
+        <!--featured card1-->
+        <article class="text-center max-w-[500px]">
+          <img class="mx-auto w-24" src="firstpost.jpg" alt="post1" />
+
+          <h2 class="text-opacity-80 mt-4 mx-6 text-xl font-bold">
+            Eye brow raised as singer Seun Kuti speaks about Heaven's
+            exclusivity
+          </h2>
+          <p class="text-opoacity-80 border border-yellow-700 p-2">
+            Afrobeat musician Seun Kuti has shared his understanding of a
+            chapter of the Bible as it relates to Africans. Speaking on the Zero
+            Conditions podcast, Kuti said: “If your God doesn’t look like you,
+            he’s not your God. If you’re closing your eyes and imagining that
+            your God is a white man on white hair, white beards with white robe,
+            you’re lost. Genesis 7 to 14 has already made it clear that African
+            people will never enter Heaven. Only 12,000 people from the 12
+            tribes of Judah will enter Heaven. Meaning, it’s only 144,000 people
+            that will enter the real Heaven, the rest of you will go there to
+            serve in the temple. So sl@very has already been secured for you
+            again.”
+          </p>
+        </article>
+        <!--featured card2-->
+        <article class="text-center max-w-[350px]">
+          <img class="mx-auto w-36" src="secondpost.jpg" alt="post2" />
+
+          <h2 class="text-opacity-80 mt-4 mx-6 text-xl font-bold">
+            Victor Osimhen to join Napoli on loan from Galatasaray
+          </h2>
+          <p class="text-opoacity-80 border border-yellow-700 p-2">
+            Italian football club, Napoli has reached an agreement with
+            Galatasaray to sign Victor Osimhen on a one-year loan deal. The
+            Nigerian international was unable to complete a transfer deal to
+            Chelsea just before the transfer window in England closed and
+            subsequently missed out on a move to Saudi Arabian team, Al-Hilal.
+            Napoli had been in talks with Chelsea over a deal to sign the
+            23-year-old but the Premier League club were unable to reach an
+            agreement with the Serie A side
+          </p>
+        </article>
+        <!--featured card3-->
+        <article class="text-center max-w-[400px]">
+          <img class="mx-auto w-28" src="thirdpost.jpg" alt="post3" />
+
+          <h2 class="text-opacity-80 mt-4 mx-6 text-xl font-bold">
+            "Protest is not treason" - Andrew Wynne, British national
+          </h2>
+          <p class="text-opoacity-80 border border-yellow-700 p-2">
+            Andrew Wynne, a British national who was wanted by the Nigeria
+            police for allegedly plotting to overthrow the President Bola
+            Tinubu-led government, has broken his silence. Speaking on Monday,
+            September 2, in a statement titled “Protests, not treason,” he said:
+            “The mass protests over #EndBadGovernance and #EndHunger frightened
+            the government. However, the government turned to repression rather
+            than addressing the people’s demands. Perhaps 40 people were
+            m+rdered by the police and other security forces, thousands were
+            arrested, and many remain in captivity.
+          </p>
+        </article>
+      </section>
+      <!--featured posts ends here-->
+
+      <!--category section starts here--[got this from tqailwind,all i'll doing is edit
+      on the images,h2,p,and add a div for my span tags which will hold my badge]-->
+      <section>
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+            <h2 class="text-xl font-bold text-yellow-400 text-opacity-80">
+              Blog Post Category
+            </h2>
+
+            <!--first category post-->
+            <div
+              class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0"
+            >
+              <div class="group relative">
+                <div
+                  class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64"
+                >
+                  <img
+                    src="desk.jpg"
+                    alt="Desk & office"
+                    class="h-full w-full object-cover object-center"
+                  />
+                </div>
+                <h3 class="mt-6 text-sm">
+                  <a href="#">
+                    <span class="absolute inset-0"></span>
+                    Desk and Office
+                  </a>
+                </h3>
+                <p class="text-base font-semibold">
+                  Work from home accessories
+                </p>
+                <div
+                  class="bg-yellow-500 text-opacity-85 text-xl uppercase font-bold rounded-full p-1 absolute top-0 ml-2 mt-2"
+                >
+                  <span>8hrs</span>
+                </div>
+                <!--2nd category post-->
+              </div>
+              <div class="group relative">
+                <div
+                  class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64"
+                >
+                  <img
+                    src="improvement.jpg"
+                    alt="read & work"
+                    class="h-full w-full object-cover object-center"
+                  />
+                </div>
+                <h3 class="mt-6 text-sm">
+                  <a href="#">
+                    <span class="absolute inset-0"></span>
+                    Self-Improvement
+                  </a>
+                </h3>
+                <p class="text-base font-semibold">Journals and note-taking</p>
+                <div
+                  class="bg-yellow-500 text-opacity-85 text-xl uppercase font-bold rounded-full p-1 absolute top-0 ml-2 mt-2"
+                >
+                  <span>3hrs</span>
+                </div>
+
+                <!--3rd category post-->
+              </div>
+              <div class="group relative">
+                <div
+                  class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64"
+                >
+                  <img
+                    src="writers.jpg"
+                    alt="Typewriter"
+                    class="h-full w-full object-cover object-center"
+                  />
+                </div>
+                <h3 class="mt-6 text-sm">
+                  <a href="#">
+                    <span class="absolute inset-0"></span>
+                    Writer
+                  </a>
+                </h3>
+                <p class="text-base font-semibold text-gray-900">
+                  Course skill
+                </p>
+                <div
+                  class="bg-yellow-500 text-opacity-85 text-xl uppercase font-bold rounded-full p-1 absolute top-0 ml-2 mt-2"
+                >
+                  <span>6hrs</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--categoty post ends here-->
+
+      <!--Recent post section starts here-->
+      <section>
+        <div class="mx-auto p-5 gap-10">
+          <h2
+            class="flex justify-center text-xl font-bold text-yellow-400 text-opacity-80 mb-6"
+          >
+            Recent Posts
+          </h2>
+          <!--post1-->
+          <div>
+            <ul class="text-xl font-bold letter-spacing: -0.025em">
+              <li>Travel Post-[Tour to Canada]</li>
+            </ul>
+            <button class="bg-yellow-500 font-2xl border rounded-full p-1">
+              Jan-21-2024
+            </button>
+          </div>
+          <!--post2-->
+          <div>
+            <ul class="text-xl font-bold letter-spacing: -0.025em">
+              <li>Celebrity Post-[Burnaboy's Madison square concert]</li>
+            </ul>
+            <button class="bg-yellow-500 font-2xl border rounded-full p-1">
+              Feb-12-2024
+            </button>
+          </div>
+          <!--post3-->
+          <div>
+            <ul class="text-xl font-bold letter-spacing: -0.025em">
+              <li>
+                Food Post-[Twitter people complaining about kfc's jollof rice]
+              </li>
+            </ul>
+            <button class="bg-yellow-500 font-2xl border rounded-full p-1">
+              Apr-06-2024
+            </button>
+          </div>
+          <!--post4-->
+          <div>
+            <ul class="text-xl font-bold letter-spacing: -0.025em">
+              <li>Fashion Post-[Asake murders MTV's Red Carpet]</li>
+            </ul>
+            <button class="bg-yellow-500 font-2xl border rounded-full p-1">
+              July-19-2024
+            </button>
+          </div>
+          <!--post5-->
+          <div>
+            <ul class="text-xl font-bold letter-spacing: -0.025em">
+              <li>
+                Economic Post-[ President Tinubu promised Nigerians that his 2nd
+                Tenure would be better lol!!!]
+              </li>
+            </ul>
+            <button class="bg-yellow-500 font-2xl border rounded-full p-1">
+              Oct-10-2024
+            </button>
+          </div>
+        </div>
+      </section>
+      <!--Recent post section ends here-->
+      <!--Newsletter section starts here-->
+      <section>
+        <div
+          class="border border-yellow-600 rounded-xl sm:p-4 lg:mx-36 items-center text-center mx-auto p-5"
+        >
+          <h2
+            class="flex justify-center text-xl font-bold text-opacity-80 mb-5"
+          >
+            Be a Reliable Content Source
+          </h2>
+          <p class="flex justify-center text-xl font-bold text-opacity-80 mb-5">
+            We've got your best interest at heart,feel free to give us the
+            concerning activities going on around you,the empty bar below is
+            meant for every patriotic member,customer,employee and
+            subscribers.we are always here for you
+          </p>
+          <form class="flex flex-row justify-center gap-5">
+            <input
+              class="p-4 w-full lg:max-w-[60%] sm:max-w-[60%] rounded-full"
+              type="text"
+              placeholder="leave us a message"
+            />
+            <button
+              class="bg-yellow-500 font-xl border rounded-full w-full p-1 lg:max-w-[10%] sm:max-w-[10%]"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+      </section>
+      <!--Newsletter section ends here-->
+    </main>
+    <!--main section ends here-->
+
+    <!--footer section starts here-->
+    <footer class="container mx-auto bg-black p-5">
+      <div
+        class="flex bg-black text-white justify-center items-start flex-col md:flex-row p-10 gap-10"
+      >
+        <div class="flex items-center gap-5">
+          <i
+            class="border border-white p-2 w-fit rounded-full fa-brands fa-facebook"
+          ></i>
+          <i
+            class="border border-white p-2 w-fit rounded-full fa-brands fa-instagram"
+          ></i>
+          <i
+            class="border border-white p-2 w-fit rounded-full fa-brands fa-twitter"
+          ></i>
+          <i
+            class="border border-white p-2 w-fit rounded-full fa-brands fa-linkedin"
+          ></i>
+        </div>
+
+        <p class="text-xl">
+          <span>&copy;Copyright</span>
+          <a href="#"> Dave</a>
+        </p>
+
+        <div class="text-white">
+          <p><a href="#">Contact Us</a></p>
+          <p><a href="#">Press</a></p>
+          <p><a href="#">Terms</a></p>
+          <p><a href="#">Privacy</a></p>
+          <p></p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/d67942ee00.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
